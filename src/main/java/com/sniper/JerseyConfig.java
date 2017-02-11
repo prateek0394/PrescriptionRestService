@@ -1,6 +1,8 @@
 package com.sniper;
 
 import com.sniper.controller.BaseController;
+import com.sniper.controller.PostController;
+
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
@@ -16,6 +18,7 @@ public class JerseyConfig extends ResourceConfig {
     private void registerEndpoints() {
 
          register(BaseController.class);
+         register(PostController.class);
 
     }
 
