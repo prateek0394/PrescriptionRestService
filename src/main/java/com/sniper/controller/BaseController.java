@@ -1,4 +1,4 @@
-package com.sniper.Controller;
+package com.sniper.controller;
 
 /**
  * Created by saumaury on 1/28/17.

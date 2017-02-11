@@ -1,6 +1,6 @@
 package com.sniper;
 
-import com.sniper.Controller.BaseController;
+import com.sniper.controller.BaseController;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
